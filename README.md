@@ -71,12 +71,11 @@ Pull requests are welcome. Enjoy!
 * `SELECT` column_name `AS` alias_name `FROM` table_name;
 * `SELECT` column_name `FROM` table_name `AS` alias_name;
 * `SELECT` column_name `AS` alias_name1, column_name2 `AS` alias_name2;
-        #### Additional use 1: returning a column that always contains NULL
-        * `SELECT` NULL `AS` column_name `FROM` table_name;
-        #### Additional use 2: returning a column that contains computed values
-        * `SELECT` column_name1 + column_name2 `AS` column_name3 `FROM` table_name;
-        * `SELECT` column_name1, column_name2 + ‘, ‘ + column_name3 `AS` alias_name;
-
+> #### Additional use 1: returning a column that always contains NULL
+> * `SELECT` NULL `AS` column_name `FROM` table_name;
+> #### Additional use 2: returning a column that contains computed values
+> * `SELECT` column_name1 + column_name2 `AS` column_name3 `FROM` table_name;
+> * `SELECT` column_name1, column_name2 + ‘, ‘ + column_name3 `AS` alias_name;
 
 ### **UNION**: set operator used to combine the result-set of two or more SELECT statements
 * Each SELECT statement within UNION must have the same number of columns
