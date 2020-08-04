@@ -14,6 +14,8 @@ Pull requests are welcome. Enjoy!
 6. [ Altering Table Queries.](#alter)
 7. [ Creating Table Query.](#create)
 
++ [ SYS Managemement.](./SYS_Management.md)
+
 <a name="find"></a>
 # 1. Finding Data Queries
 
